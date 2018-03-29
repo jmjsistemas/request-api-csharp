@@ -1,0 +1,10 @@
+C:\Users\JMJ\Documents\testeccsharp\bin\Debug\netcoreapp2.0\testeccsharp.deps.json
+C:\Users\JMJ\Documents\testeccsharp\bin\Debug\netcoreapp2.0\testeccsharp.runtimeconfig.json
+C:\Users\JMJ\Documents\testeccsharp\bin\Debug\netcoreapp2.0\testeccsharp.runtimeconfig.dev.json
+C:\Users\JMJ\Documents\testeccsharp\bin\Debug\netcoreapp2.0\testeccsharp.dll
+C:\Users\JMJ\Documents\testeccsharp\bin\Debug\netcoreapp2.0\testeccsharp.pdb
+C:\Users\JMJ\Documents\testeccsharp\obj\Debug\netcoreapp2.0\testeccsharp.csproj.CoreCompileInputs.cache
+C:\Users\JMJ\Documents\testeccsharp\obj\Debug\netcoreapp2.0\testeccsharp.AssemblyInfoInputs.cache
+C:\Users\JMJ\Documents\testeccsharp\obj\Debug\netcoreapp2.0\testeccsharp.AssemblyInfo.cs
+C:\Users\JMJ\Documents\testeccsharp\obj\Debug\netcoreapp2.0\testeccsharp.dll
+C:\Users\JMJ\Documents\testeccsharp\obj\Debug\netcoreapp2.0\testeccsharp.pdb
