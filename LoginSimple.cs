@@ -12,11 +12,11 @@ namespace testeccsharp
     class LoginSimple
     {
         static string id = "";
-        public static string doLogin()
+        public static string doLogin(string usuario, string senha)
         {
             Console.WriteLine("Efetuando Login!");
             string URI = "http://irishomologacao.unimeduberlandia.coop.br:8080/iris/login";
-            string myParameters = "username=auditor&password=da428db3b6fc127df7f3051059c7f430";
+            string myParameters = "username="+usuario+"&password="+senha;
 
             using (WebClient wc = new WebClient())
             {

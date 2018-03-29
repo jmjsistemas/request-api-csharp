@@ -17,7 +17,7 @@ namespace testeccsharp
 
         static string BASE_URL = "http://irishomologacao.unimeduberlandia.coop.br:8080/iris/";
         static string CONTENT_TYPE = "application/x-www-form-urlencoded";
-        public  static string getSessionID()
+        public  static string getSessionID(string usuario, string senha)
         {
             Console.WriteLine("Efetuando Login!");
             var client = new RestClient(BASE_URL + "login");
@@ -25,8 +25,8 @@ namespace testeccsharp
 
 
             client.AddDefaultHeader("Content-Type", CONTENT_TYPE);
-            request.AddParameter("username", "appbeneficiario");
-            request.AddParameter("password", "a4997e1c241729bb32174f6a4d01a790");
+            request.AddParameter("username", usuario);
+            request.AddParameter("password", senha);
             var response = client.Execute(request);
             Console.WriteLine("ID Retornado " + response.Cookies[0].Name + "=" + response.Cookies[0].Value);
             return response.Cookies[0].Name + "=" + response.Cookies[0].Value;
