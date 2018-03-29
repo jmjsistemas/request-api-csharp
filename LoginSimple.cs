@@ -9,7 +9,7 @@ using System.IO;
 using System.Timers;
 namespace testeccsharp
 {
-    class TesteSimple
+    class LoginSimple
     {
         static string id = "";
         public static string doLogin()
